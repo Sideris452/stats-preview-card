@@ -149,17 +149,20 @@ p {
 }
 
 .top-statement {
-  font-size: 2em;
-  font-family: 'Lexend Deca';
-  font-weight: 600;
+  font-size: 1.8em;
+  font-family: 'Inter';
+  font-weight: 700;
   color: hsl(0, 0%, 100%);
   text-align: center;
   margin-top: 27px;
   margin-bottom: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 }
 
 .middle-statement {
-  font-size: 1em;
+  font-size: 15px;
   font-family: 'Inter';
   color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
@@ -173,9 +176,9 @@ p {
 
 .first-stat {
   font-size: 1.8em;
-  font-family: 'Lexend Deca';
+  font-family: 'Inter';
   color: hsl(0, 0%, 100%);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
@@ -188,9 +191,9 @@ p {
 
 .second-stat {
   font-size: 1.8em;
-  font-family: 'Lexend Deca';
+  font-family: 'Inter';
   color: hsl(0, 0%, 100%);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
@@ -203,9 +206,9 @@ p {
 
 .third-stat {
   font-size: 1.8em;
-  font-family: 'Lexend Deca';
+  font-family: 'Inter';
   color: hsl(0, 0%, 100%);
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
