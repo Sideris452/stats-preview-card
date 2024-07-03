@@ -105,8 +105,9 @@ body {
 .card-wrapper {
   display: flex;
   flex-direction: column;
+  width: 330px;
   margin-top: 70px;
-  min-width: 300px;
+  margin-bottom: 85px;
   border: 0;
   background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
@@ -124,7 +125,7 @@ img {
   content: url("../img/image-header-mobile.jpg");
   background-size: cover;
   background-position: center;
-  min-height: 300px;
+  min-height: 239px;
   display: flex;
   justify-content: center;
   border-radius: 10px 10px 0 0;
@@ -137,14 +138,86 @@ img {
 }
 
 p {
+  font-size: 1em;
+  font-family: 'Inter';
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: 'Lexend Deca';
-  font-weight: 400;
+  text-align: center;
 }
 
 .colored-text {
   color: hsl(277, 64%, 61%);
 }
+
+.top-statement {
+  font-size: 2em;
+  font-family: 'Lexend Deca';
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+.middle-statement {
+  font-size: 1em;
+  font-family: 'Inter';
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  margin: 0;
+}
+
+.stats-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-stat {
+  font-size: 1.8em;
+  font-family: 'Lexend Deca';
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.stat-heading-one {
+  font-size: 1em;
+  font-family: 'Inter';
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 0;
+}
+
+.second-stat {
+  font-size: 1.8em;
+  font-family: 'Lexend Deca';
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.stat-heading-two {
+  font-size: 1em;
+  font-family: 'Inter';
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 0;
+}
+
+.third-stat {
+  font-size: 1.8em;
+  font-family: 'Lexend Deca';
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.stat-heading-three {
+  font-size: 1em;
+  font-family: 'Inter';
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
 
 
 
