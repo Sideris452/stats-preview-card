@@ -107,7 +107,7 @@ body {
   flex-direction: column;
   width: 330px;
   margin-top: 70px;
-  margin-bottom: 85px;
+  margin-bottom: 90px;
   border: 0;
   background-color: hsl(244, 38%, 16%);
   border-radius: 10px;
@@ -148,7 +148,7 @@ p {
   color: hsl(277, 64%, 61%);
 }
 
-.top-statement {
+.first-statement {
   font-size: 1.8em;
   font-family: 'Inter';
   font-weight: 700;
@@ -161,7 +161,7 @@ p {
 
 }
 
-.middle-statement {
+.second-statement {
   font-size: 15px;
   font-family: 'Inter';
   color: hsla(0, 0%, 100%, 0.75);
@@ -172,9 +172,10 @@ p {
 .stats-wrapper {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
-.first-stat {
+.stats {
   font-size: 1.8em;
   font-family: 'Inter';
   color: hsl(0, 0%, 100%);
@@ -182,68 +183,12 @@ p {
   margin-bottom: 0;
 }
 
-.stat-heading-one {
+.stat-heading {
   font-size: 1em;
   font-family: 'Lexend Deca';
   color: hsla(0, 0%, 100%, 0.6);
   margin: 0;
 }
-
-.second-stat {
-  font-size: 1.8em;
-  font-family: 'Inter';
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-.stat-heading-two {
-  font-size: 1em;
-  font-family: 'Lexend Deca';
-  color: hsla(0, 0%, 100%, 0.6);
-  margin: 0;
-}
-
-.third-stat {
-  font-size: 1.8em;
-  font-family: 'Inter';
-  color: hsl(0, 0%, 100%);
-  font-weight: 700;
-  margin-bottom: 0;
-}
-
-.stat-heading-three {
-  font-size: 1em;
-  font-family: 'Lexend Deca';
-  color: hsla(0, 0%, 100%, 0.6);
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -341,16 +286,60 @@ p {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+   @media only screen and (min-width:768px) {
+    
+    /* General Tablet Styles */
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+   .card-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+    height: 350px;
+    
+   }
+
+  .main-image {
+    width: 100%;
+  }
+
+   .hero-image {
+    content: url("../img/image-header-desktop.jpg");
+    border-radius: 0 10px 0 0;
+   }
+
+   .text-wrapper {
+   
+    
+   }
+
+   .stats-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    max-width: 400px;
+    margin-left: 32px;
+    width: 40%;
+   }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Print styles.
