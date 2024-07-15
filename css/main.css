@@ -361,9 +361,9 @@ p {
       justify-content: space-around;
       margin-left: 60px;
       margin-top: 30px;
-      margin-right: 120px;
+      margin-right: 90px;
       margin-bottom: 0;
-      padding: 0 0 0 50px;
+      padding: 0 0 0 80px;
       min-width: 380px;
      }
 
@@ -380,7 +380,8 @@ p {
       margin-top: 35px;
       margin-left: 0;
       margin-right: 50px;
-      padding-right: 60px;
+      padding-right: 40px;
+      font-size: 17px ;
      }
 
      .statement-wrapper {
@@ -390,9 +391,9 @@ p {
      .stats-wrapper {
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       min-width: 350px;
-      margin: 0 30px 30px 0;
+      margin: 0 60px 20px 0;
      }
 
      .stats {
